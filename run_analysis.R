@@ -7,7 +7,6 @@ features <-read.table("./features.txt")
 #Keep only label names
 features_names <- as.character(features[,2])
 
-        
 
 ###1-Merges the training and the test sets to create one data set.
 #Read the train data
@@ -37,19 +36,13 @@ head(test_suject) #File dimension {2947,1}
 head(merged_test)#File dimension {2947,563}
 
 
-
-
 ### 4-Appropriately labels the data set with descriptive variable names.
 colnames(Final_data) <- c(features_names,"y_Activities","subject")
 head(Final_data)
 
-
-
 ### 3-Uses descriptive activity names to name the activities in the data set
 Final_data$y_Activities <- factor(Final_data$y_Activities,labels=Activity_labels[,2])
 summary(Final_data)
-
-
 
 ### 2-Extracts only the measurements on the mean and standard deviation for each measurement.
 to_keep<-grep(".*mean.*|.*std.*",features[,2])
@@ -59,7 +52,6 @@ colnames(final_data3)[80]<-"y_Activities"
 colnames(final_data3)[81]<-"subject"
 head(final_data3)
 
-
 ### 5-From the data set in step 4, creates a second, independent tidy data set 
 #with the average of each variable for each activity and each subject.
 library("data.table", lib.loc="~/R/win-library/3.2")
@@ -67,5 +59,5 @@ final_data4<-data.table(final_data3)
 tidy_data <-final_data4[,lapply(.SD,mean),by=c("subject","y_Activities")]
 
 #Export the final tidy table
-write.table(tidy_data,"TidyData.txt",quote=FALSE)
+write.table(tidy_data,"Tidy_Data.txt",row.name=FALSE ,quote=FALSE)
 
