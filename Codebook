@@ -1,14 +1,15 @@
-#Code Book
+***CODEBOOK
+This file describes the variables, the data, and  transformations performed to clean up the data 
 
-##Data Descripction
+***DATA DESCRIPTION
 The data Tidy_data.txt represent data collected from the accelerometers from the Samsung Galaxy S smartphone which contain Human Activity Recognition Using Smartphones. 
 This file has 180 rows and 81 variables.
 
-##Transformations performed 
+***TRANSFORMATION PREFORMED
 This files was cleaned to keep just scential information, and mean and std for each mesurement by subject and activity.
 also was re-label the activities and variable names to make the file understable
 
-##Variable Description 
+***VARIABLE DESCRIPTION
 This is the list of variables included on the tidy_data.txt file:
 
 *	subject	:integer variable	 that Indicates identifier id
