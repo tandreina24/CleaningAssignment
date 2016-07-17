@@ -1,0 +1,94 @@
+#Code Book
+
+##Data Descripction
+The data Tidy_data.txt represent data collected from the accelerometers from the Samsung Galaxy S smartphone which contain Human Activity Recognition Using Smartphones. 
+This file has 180 rows and 81 variables.
+
+##Transformations performed 
+This files was cleaned to keep just scential information, and mean and std for each mesurement by subject and activity.
+also was re-label the activities and variable names to make the file understable
+
+##Variable Description 
+This is the list of variables included on the tidy_data.txt file:
+
+*	subject	:integer variable	 that Indicates identifier id
+*	y_Activities	:integer variable	that indicates the activity the subject did for the mesurement
+*	tBodyAcc-mean()-X	:numeric variable	
+*	tBodyAcc-mean()-Y	:numeric variable	
+*	tBodyAcc-mean()-Z	:numeric variable	
+*	tBodyAcc-std()-X	:numeric variable	
+*	tBodyAcc-std()-Y	:numeric variable	
+*	tBodyAcc-std()-Z	:numeric variable	
+*	tGravityAcc-mean()-X	:numeric variable	
+*	tGravityAcc-mean()-Y	:numeric variable	
+*	tGravityAcc-mean()-Z	:numeric variable	
+*	tGravityAcc-std()-X	:numeric variable	
+*	tGravityAcc-std()-Y	:numeric variable	
+*	tGravityAcc-std()-Z	:numeric variable	
+*	tBodyAccJerk-mean()-X	:numeric variable	
+*	tBodyAccJerk-mean()-Y	:numeric variable	
+*	tBodyAccJerk-mean()-Z	:numeric variable	
+*	tBodyAccJerk-std()-X	:numeric variable	
+*	tBodyAccJerk-std()-Y	:numeric variable	
+*	tBodyAccJerk-std()-Z	:numeric variable	
+*	tBodyGyro-mean()-X	:numeric variable	
+*	tBodyGyro-mean()-Y	:numeric variable	
+*	tBodyGyro-mean()-Z	:numeric variable	
+*	tBodyGyro-std()-X	:numeric variable	
+*	tBodyGyro-std()-Y	:numeric variable	
+*	tBodyGyro-std()-Z	:numeric variable	
+*	tBodyGyroJerk-mean()-X	:numeric variable	
+*	tBodyGyroJerk-mean()-Y	:numeric variable	
+*	tBodyGyroJerk-mean()-Z	:numeric variable	
+*	tBodyGyroJerk-std()-X	:numeric variable	
+*	tBodyGyroJerk-std()-Y	:numeric variable	
+*	tBodyGyroJerk-std()-Z	:numeric variable	
+*	tBodyAccMag-mean()	:numeric variable	
+*	tBodyAccMag-std()	:numeric variable	
+*	tGravityAccMag-mean()	:numeric variable	
+*	tGravityAccMag-std()	:numeric variable	
+*	tBodyAccJerkMag-mean()	:numeric variable	
+*	tBodyAccJerkMag-std()	:numeric variable	
+*	tBodyGyroMag-mean()	:numeric variable	
+*	tBodyGyroMag-std()	:numeric variable	
+*	tBodyGyroJerkMag-mean()	:numeric variable	
+*	tBodyGyroJerkMag-std()	:numeric variable	
+*	fBodyAcc-mean()-X	:numeric variable	
+*	fBodyAcc-mean()-Y	:numeric variable	
+*	fBodyAcc-mean()-Z	:numeric variable	
+*	fBodyAcc-std()-X	:numeric variable	
+*	fBodyAcc-std()-Y	:numeric variable	
+*	fBodyAcc-std()-Z	:numeric variable	
+*	fBodyAcc-meanFreq()-X	:numeric variable	
+*	fBodyAcc-meanFreq()-Y	:numeric variable	
+*	fBodyAcc-meanFreq()-Z	:numeric variable	
+*	fBodyAccJerk-mean()-X	:numeric variable	
+*	fBodyAccJerk-mean()-Y	:numeric variable	
+*	fBodyAccJerk-mean()-Z	:numeric variable	
+*	fBodyAccJerk-std()-X	:numeric variable	
+*	fBodyAccJerk-std()-Y	:numeric variable	
+*	fBodyAccJerk-std()-Z	:numeric variable	
+*	fBodyAccJerk-meanFreq()-X	:numeric variable	
+*	fBodyAccJerk-meanFreq()-Y	:numeric variable	
+*	fBodyAccJerk-meanFreq()-Z	:numeric variable	
+*	fBodyGyro-mean()-X	:numeric variable	
+*	fBodyGyro-mean()-Y	:numeric variable	
+*	fBodyGyro-mean()-Z	:numeric variable	
+*	fBodyGyro-std()-X	:numeric variable	
+*	fBodyGyro-std()-Y	:numeric variable	
+*	fBodyGyro-std()-Z	:numeric variable	
+*	fBodyGyro-meanFreq()-X	:numeric variable	
+*	fBodyGyro-meanFreq()-Y	:numeric variable	
+*	fBodyGyro-meanFreq()-Z	:numeric variable	
+*	fBodyAccMag-mean()	:numeric variable	
+*	fBodyAccMag-std()	:numeric variable	
+*	fBodyAccMag-meanFreq()	:numeric variable	
+*	fBodyBodyAccJerkMag-mean()	:numeric variable	
+*	fBodyBodyAccJerkMag-std()	:numeric variable	
+*	fBodyBodyAccJerkMag-meanFreq()	:numeric variable	
+*	fBodyBodyGyroMag-mean()	:numeric variable	
+*	fBodyBodyGyroMag-std()	:numeric variable	
+*	fBodyBodyGyroMag-meanFreq()	:numeric variable	
+*	fBodyBodyGyroJerkMag-mean()	:numeric variable	
+*	fBodyBodyGyroJerkMag-std()	:numeric variable	
+*	fBodyBodyGyroJerkMag-meanFreq()	:numeric variable	
